@@ -1,6 +1,6 @@
 {
   "name": "@gyuhyo/lab",
-  "version": "0.0.1",
+  "version": "0.0.1-beta.2",
   "private": false,
   "author": "gyuhyo",
   "description": "Laboratory for new MUI modules.",

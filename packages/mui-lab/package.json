@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/gyuhyo/material-ui/issues"
   },
-  "homepage": "https://mui.com/components/about-the-lab/",
+  "homepage": "https://github.com/gyuhyo/material-ui",
   "scripts": {
     "build": "yarn build:legacy && yarn build:modern && yarn build:node && yarn build:stable && yarn build:types && yarn build:copy-files ",
     "build:legacy": "node ../../scripts/build legacy",

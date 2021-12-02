@@ -45,6 +45,8 @@ export interface TreeItemContentProps extends StandardProps<React.HTMLAttributes
    * The icon to display next to the tree node's label. Either a parent or end icon.
    */
   displayIcon?: React.ReactNode;
+
+  href?: string;
 }
 
 export type TreeItemContentClassKey = keyof NonNullable<TreeItemContentProps['classes']>;

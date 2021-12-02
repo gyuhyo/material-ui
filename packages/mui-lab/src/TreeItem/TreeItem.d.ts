@@ -72,6 +72,8 @@ export interface TreeItemProps
    * The system prop that allows defining system overrides as well as additional CSS styles.
    */
   sx?: SxProps<Theme>;
+
+  href?: string;
 }
 
 /**

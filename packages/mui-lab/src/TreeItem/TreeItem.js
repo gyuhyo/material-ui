@@ -139,6 +139,7 @@ const TreeItem = React.forwardRef(function TreeItem(inProps, ref) {
     id: idProp,
     label,
     nodeId,
+    href,
     onClick,
     onMouseDown,
     TransitionComponent = Collapse,
@@ -301,6 +302,7 @@ const TreeItem = React.forwardRef(function TreeItem(inProps, ref) {
         }}
         label={label}
         nodeId={nodeId}
+        href={href}
         onClick={onClick}
         onMouseDown={onMouseDown}
         icon={icon}
@@ -418,6 +420,8 @@ TreeItem.propTypes /* remove-proptypes */ = {
    * By default, the element is based on this [`Transition`](https://reactcommunity.org/react-transition-group/transition) component.
    */
   TransitionProps: PropTypes.object,
+
+  href: PropTypes.string,
 };
 
 export default TreeItem;

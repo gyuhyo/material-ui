@@ -15,6 +15,7 @@ const TreeItemContent = React.forwardRef(function TreeItemContent(props, ref) {
     icon: iconProp,
     label,
     nodeId,
+    href,
     onClick,
     onMouseDown,
     ...other
@@ -111,6 +112,8 @@ TreeItemContent.propTypes = {
    * @ignore
    */
   onMouseDown: PropTypes.func,
+
+  href: PropTypes.string,
 };
 
 export default TreeItemContent;

@@ -2,7 +2,7 @@
   "name": "@gyuhyo/lab",
   "version": "0.0.1",
   "private": false,
-  "author": "MUI Team",
+  "author": "gyuhyo",
   "description": "Laboratory for new MUI modules.",
   "main": "./src/index.js",
   "keywords": [
